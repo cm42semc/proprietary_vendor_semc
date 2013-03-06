@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/egl/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/semc/urushi/proprietary/lib/egl/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/semc/urushi/proprietary/lib/egl/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-
     vendor/semc/urushi/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/urushi/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/urushi/proprietary/bin/akmd8975:system/bin/akmd8975 \
