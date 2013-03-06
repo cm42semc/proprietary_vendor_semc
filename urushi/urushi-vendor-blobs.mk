@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/urushi/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/urushi/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/semc/urushi/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/semc/urushi/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/urushi/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/urushi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -112,6 +113,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/semc/urushi/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+    vendor/semc/urushi/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/semc/urushi/proprietary/lib/libCB.so:system/lib/libCB.so \
+    vendor/semc/urushi/proprietary/lib/egl/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/semc/urushi/proprietary/lib/egl/libOpenCL.so:system/lib/libOpenCL.so \
+    vendor/semc/urushi/proprietary/lib/egl/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+
     vendor/semc/urushi/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/urushi/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/urushi/proprietary/bin/akmd8975:system/bin/akmd8975 \
@@ -126,5 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
     vendor/semc/urushi/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
     vendor/semc/urushi/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
+    vendor/semc/urushi/proprietary/app/ProfilerPlaybackTools.apk:system/app/ProfilerPlaybackTools.apk \
     vendor/semc/urushi/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
     vendor/semc/urushi/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar
