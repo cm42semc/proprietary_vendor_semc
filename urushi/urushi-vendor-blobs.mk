@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/urushi/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/urushi/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/semc/urushi/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/semc/urushi/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/urushi/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/urushi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -80,11 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
     vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
     vendor/semc/urushi/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
-    vendor/semc/urushi/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/semc/urushi/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/semc/urushi/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/semc/urushi/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/semc/urushi/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/semc/urushi/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
     vendor/semc/urushi/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
     vendor/semc/urushi/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
@@ -93,8 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/urushi/proprietary/etc/firmware/TIInit_7.5.20.bts:system/etc/firmware/TIInit_7.5.20.bts \
     vendor/semc/urushi/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/semc/urushi/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/semc/urushi/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
     vendor/semc/urushi/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
     vendor/semc/urushi/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
@@ -106,13 +100,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/urushi/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/urushi/proprietary/bin/calibrator:system/bin/calibrator \
-    vendor/semc/urushi/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/semc/urushi/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/semc/urushi/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/urushi/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/urushi/proprietary/bin/akmd8975:system/bin/akmd8975 \
-    vendor/semc/urushi/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/semc/urushi/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/semc/urushi/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/urushi/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/urushi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
@@ -125,12 +114,12 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-    vendor/semc/urushi/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/urushi/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/semc/urushi/proprietary/lib/libCB.so:system/lib/libCB.so \
-    vendor/semc/urushi/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    vendor/semc/urushi/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/semc/urushi/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+    vendor/semc/urushi/proprietary/lib/egl/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/semc/urushi/proprietary/lib/egl/libOpenCL.so:system/lib/libOpenCL.so \
+    vendor/semc/urushi/proprietary/lib/egl/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+    vendor/semc/urushi/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/urushi/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/urushi/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/urushi/proprietary/bin/chargemon:system/bin/chargemon \
@@ -138,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img \
+    vendor/semc/urushi/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/urushi/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/semc/urushi/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
     vendor/semc/urushi/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
