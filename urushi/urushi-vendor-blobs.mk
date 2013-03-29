@@ -18,35 +18,8 @@
 PRODUCT_COPY_FILES := \
     vendor/semc/urushi/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
-PRODUCT_COPY_FILES += \
-    vendor/semc/urushi/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/semc/urushi/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/semc/urushi/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/semc/urushi/proprietary/lib/libauth.so:system/lib/libauth.so \
-    vendor/semc/urushi/proprietary/lib/libcm.so:system/lib/libcm.so \
-    vendor/semc/urushi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/semc/urushi/proprietary/lib/libdll.so:system/lib/libdll.so \
-    vendor/semc/urushi/proprietary/lib/libdsm.so:system/lib/libdsm.so \
-    vendor/semc/urushi/proprietary/lib/libdss.so:system/lib/libdss.so \
-    vendor/semc/urushi/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
-    vendor/semc/urushi/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
-    vendor/semc/urushi/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
-    vendor/semc/urushi/proprietary/lib/libnv.so:system/lib/libnv.so \
-    vendor/semc/urushi/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
-    vendor/semc/urushi/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
-    vendor/semc/urushi/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
-    vendor/semc/urushi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/semc/urushi/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/urushi/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/urushi/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/semc/urushi/proprietary/lib/libwms.so:system/lib/libwms.so \
-    vendor/semc/urushi/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/urushi/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/semc/urushi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/semc/urushi/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/semc/urushi/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/semc/urushi/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/semc/urushi/proprietary/bin/netmgrd:system/bin/netmgrd \
+# Camera blobs
+PRODUCT_COPY_FILES := \
     vendor/semc/urushi/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/urushi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/urushi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -79,6 +52,79 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
     vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
     vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
+    vendor/semc/urushi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/semc/urushi/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+    vendor/semc/urushi/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
+    vendor/semc/urushi/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_mt9e013_default_video.so:system/lib/libchromatix_mt9e013_default_video.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_mt9e013_preview.so:system/lib/libchromatix_mt9e013_preview.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_mt9e013_video_hfr.so:system/lib/libchromatix_mt9e013_video_hfr.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_ov8825_default_video.so:system/lib/libchromatix_ov8825_default_video.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_vx6953_default_video.so:system/lib/libchromatix_vx6953_default_video.so \
+    vendor/semc/urushi/proprietary/lib/libchromatix_vx6953_preview.so:system/lib/libchromatix_vx6953_preview.so \
+    vendor/semc/urushi/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+    vendor/semc/urushi/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/semc/urushi/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/semc/urushi/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/semc/urushi/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/semc/urushi/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/semc/urushi/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/semc/urushi/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/semc/urushi/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/semc/urushi/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/semc/urushi/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/semc/urushi/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/semc/urushi/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/semc/urushi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/urushi/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
+    vendor/semc/urushi/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+    vendor/semc/urushi/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+    vendor/semc/urushi/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/semc/urushi/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+
+
+PRODUCT_COPY_FILES += \
+    vendor/semc/urushi/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/semc/urushi/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/semc/urushi/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/semc/urushi/proprietary/lib/libauth.so:system/lib/libauth.so \
+    vendor/semc/urushi/proprietary/lib/libcm.so:system/lib/libcm.so \
+    vendor/semc/urushi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/semc/urushi/proprietary/lib/libdll.so:system/lib/libdll.so \
+    vendor/semc/urushi/proprietary/lib/libdsm.so:system/lib/libdsm.so \
+    vendor/semc/urushi/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/semc/urushi/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
+    vendor/semc/urushi/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/semc/urushi/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/semc/urushi/proprietary/lib/libnv.so:system/lib/libnv.so \
+    vendor/semc/urushi/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
+    vendor/semc/urushi/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
+    vendor/semc/urushi/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/semc/urushi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/semc/urushi/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+    vendor/semc/urushi/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/urushi/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/semc/urushi/proprietary/lib/libwms.so:system/lib/libwms.so \
+    vendor/semc/urushi/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
+    vendor/semc/urushi/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/semc/urushi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/semc/urushi/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/semc/urushi/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/semc/urushi/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/semc/urushi/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/urushi/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
     vendor/semc/urushi/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
     vendor/semc/urushi/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
