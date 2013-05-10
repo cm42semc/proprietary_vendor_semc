@@ -13,5 +13,4 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/mogami-common/proprietary/bin/iw:system/bin/iw \
-    vendor/semc/mogami-common/proprietary/lib/libnl.so:system/lib/libnl.so \
+    vendor/semc/mogami-common/proprietary/lib/libnl.so:system/lib/libnl.so
