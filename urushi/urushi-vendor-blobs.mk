@@ -166,11 +166,34 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img \
-    vendor/semc/urushi/proprietary/lib/libanthal.so:system/lib/libanthal.so \
-    vendor/semc/urushi/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
-    vendor/semc/urushi/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
-    vendor/semc/urushi/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
-    vendor/semc/urushi/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/urushi/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
-    vendor/semc/urushi/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/urushi/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar
+
+PRODUCT_COPY_FILES += \
+    vendor/semc/qcom-common/proprietary/app/ProfilerPlaybackTools.apk:system/app/ProfilerPlaybackTools.apk \
+    vendor/semc/qcom-common/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
+    vendor/semc/qcom-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/semc/qcom-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/semc/qcom-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/semc/qcom-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/semc/qcom-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/semc/qcom-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/semc/qcom-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/semc/qcom-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/semc/qcom-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/semc/qcom-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/semc/qcom-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/semc/qcom-common/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/semc/qcom-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/semc/qcom-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/qcom-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/semc/qcom-common/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+    vendor/semc/qcom-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/semc/qcom-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/semc/qcom-common/proprietary/lib/libCB.so:system/lib/libCB.so \
+    vendor/semc/qcom-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+    vendor/semc/qcom-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/semc/qcom-common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/semc/qcom-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/semc/qcom-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/semc/qcom-common/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/semc/qcom-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/qcom-common/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so
