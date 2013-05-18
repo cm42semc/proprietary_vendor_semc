@@ -74,6 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/usr/semc/camera/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
     vendor/semc/smultron/proprietary/usr/semc/camera/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat \
     vendor/semc/smultron/proprietary/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs \
+    vendor/semc/smultron/proprietary/etc/firmware/ti-connectivity/wl127x-fw-5-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-5-mr.bin \
+    vendor/semc/smultron/proprietary/etc/firmware/ti-connectivity/wl127x-fw-5-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-5-sr.bin \
     vendor/semc/smultron/proprietary/etc/firmware/fmc_ch8_1273.2.bts:system/etc/firmware/fmc_ch8_1273.2.bts \
     vendor/semc/smultron/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/smultron/proprietary/etc/firmware/fm_rx_ch8_1273.2.bts:system/etc/firmware/fm_rx_ch8_1273.2.bts \

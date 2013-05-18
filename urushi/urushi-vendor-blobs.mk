@@ -126,6 +126,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/urushi/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/urushi/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
+    vendor/semc/smultron/proprietary/etc/firmware/ti-connectivity/wl127x-fw-5-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-5-mr.bin \
+    vendor/semc/smultron/proprietary/etc/firmware/ti-connectivity/wl127x-fw-5-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-5-sr.bin \
     vendor/semc/smultron/proprietary/etc/firmware/fmc_ch8_1273.2.bts:system/etc/firmware/fmc_ch8_1273.2.bts \
     vendor/semc/smultron/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/smultron/proprietary/etc/firmware/fm_rx_ch8_1273.2.bts:system/etc/firmware/fm_rx_ch8_1273.2.bts \

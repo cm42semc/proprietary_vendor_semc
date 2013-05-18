@@ -80,6 +80,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
     vendor/semc/hallon/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
+    vendor/semc/smultron/proprietary/etc/firmware/ti-connectivity/wl127x-fw-5-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-5-mr.bin \
+    vendor/semc/smultron/proprietary/etc/firmware/ti-connectivity/wl127x-fw-5-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-5-sr.bin \
     vendor/semc/smultron/proprietary/etc/firmware/fmc_ch8_1273.2.bts:system/etc/firmware/fmc_ch8_1273.2.bts \
     vendor/semc/smultron/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/smultron/proprietary/etc/firmware/fm_rx_ch8_1273.2.bts:system/etc/firmware/fm_rx_ch8_1273.2.bts \
