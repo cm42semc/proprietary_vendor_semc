@@ -121,12 +121,4 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type1.hex:system/etc/firmware/touch_anzu_sharp_type1.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type2.hex:system/etc/firmware/touch_anzu_sharp_type2.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sony_type1.hex:system/etc/firmware/touch_anzu_sony_type1.hex \
-    vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sony_type2.hex:system/etc/firmware/touch_anzu_sony_type2.hex \
-    vendor/semc/anzu/proprietary/lib/libanthal.so:system/lib/libanthal.so \
-    vendor/semc/anzu/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
-    vendor/semc/anzu/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
-    vendor/semc/anzu/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
-    vendor/semc/anzu/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/anzu/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
-    vendor/semc/anzu/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/anzu/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar
+    vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sony_type2.hex:system/etc/firmware/touch_anzu_sony_type2.hex
